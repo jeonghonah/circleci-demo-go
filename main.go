@@ -11,6 +11,7 @@ import (
 	"github.com/mattes/migrate/migrate"
 )
 
+// Test
 func main() {
 	db := SetupDB()
 	server := service.NewServer(db)
